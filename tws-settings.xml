@@ -1,0 +1,6 @@
+<ib-gateway>
+    <Server>127.0.0.1</Server>
+    <Port>7497</Port>
+    <EnableActiveX>true</EnableActiveX>
+    <ReadOnlyApi>false</ReadOnlyApi>
+</ib-gateway>

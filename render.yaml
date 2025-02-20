@@ -1,0 +1,17 @@
+services:
+  - type: background_worker
+    name: ibkr-tws
+    runtime: docker
+    repo: https://github.com/hamad-tariq/IBKR-TWS-Docker
+    branch: main
+    region: oregon
+    plan: standard
+    envVars:
+      - key: DISPLAY
+        value: ":1"
+      - key: TWS_USER
+        value: "rnasser001"
+      - key: TWS_PASS
+        value: "metals5MARTIANS7stone_glass"
+      - key: TWS_PORT
+        value: "7497"
